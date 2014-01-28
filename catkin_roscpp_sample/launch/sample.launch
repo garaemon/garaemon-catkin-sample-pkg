@@ -1,0 +1,12 @@
+<launch>
+  <node pkg="catkin_roscpp_sample"
+        type="hello_publisher"
+        name="publisher"
+        output="screen">
+  </node>
+  <node pkg="catkin_roscpp_sample"
+        type="hello_subscriber"
+        name="subscriber"
+        output="screen">
+  </node>
+</launch>
